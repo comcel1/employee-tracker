@@ -1,3 +1,3 @@
-const express = require('express');
+const startApplication = require('./lib/dbFunctions');
 
-const app = express();
+startApplication();
